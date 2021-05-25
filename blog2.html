@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<title>Blog2 Mumbai Girl,21</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+<style>
+    body,
+    html {
+        height: 100%;
+        font-family: "Inconsolata", sans-serif;
+    }
+    
+    .bgimg {
+        background-position: center;
+        background-size: cover;
+        background-image: url("blog1img.png");
+        min-height: 75%;
+    }
+    
+    .menu {
+        display: none;
+    }
+</style>
+
+<body>
+
+
+
+    <!-- Header with image -->
+    <header class="bgimg w3-display-container w3-grayscale-min" id="home">
+        <div class="w3-display-bottomleft w3-center w3-padding-large w3-hide-small">
+            <span class="w3-tag"> 21 Year old Mumbai Girl’s story of Covid recovery
+
+            </span>
+        </div>
+        <div class="w3-display-middle w3-center red-text">
+            <span class="w3-text-white " style="font-size:90px  ">DEFEATING<br>Covid  </span>
+        </div>
+        <div class="w3-display-bottomright w3-center w3-padding-large">
+            <span class="w3-text-white"> </span>
+        </div>
+    </header>
+
+    <!-- Add a background color and large text to the whole page -->
+    <div class="w3-sand w3-grayscale w3-large">
+
+        <!-- About Container -->
+        <div class="w3-container" id="about">
+            <div class="w3-content" style="max-width:700px">
+                <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide"> 21 Year old Mumbai Girl’s story of Covid recovery
+
+    </span></h5>
+                <p>Hey, I’m Sneha from Mumbai and I am a Covid recovered patient. I tested positive on March 22nd and here is my story of recovery and experience at the hospital. I am 21 years old and I’m a student at College of Engineering , Delhi. Because
+                    of the Covid outbreak me as well as many other students decided to come home to our families. So, I flew back to Mumbai on 17th of March and when I flew back I was totally healthy , I had no symptoms of fever or cough or flu.
+                </p>
+                <p>I passed airport checks as I was totally healthy but despite this my family and I decided that I should completely isolate away from them. I was fine first but from day 2 or 3 onwards my symptoms started to arise. These included fever,
+                    nausea, body pains ,headache, fatigue. Around the 21st of March I was just walking around the home and I just fainted. My dad called the family doctor and he advised me to get myself tested. My parents were initially worried but then
+                    they were relieved as I was in the hospital and was taken care of.
+                </p>
+                <p>After I tested positive the building I was staying in was quarantined and contact tracing was done immediately. I was called by hospital and government officials and they found out who I was in contact with. Thankfully I was in contact
+                    with very few people because I did my best to maintain distance and wore a mask as well. Everyone in contact with me was tested and was negative.
+
+                </p>
+                <p>I was in a room with one more positive patient and in the morning the nurses came and they did all sorts of test like X-rays, BP, Blood tests and that is where I think close monitoring was done. Obviously the first few days you feel a
+                    bit nervous but the nurses and doctors were always taking rounds and checking up on us which is reassuring. There were also people in the room which was nice. It felt less lonely and I ended up making some nice ward buddies! We were
+                    given multivitamins. Mainly it is just a matter of taking rest, drinking plenty of fluids and taking your medicines.
+                </p>
+                <p>The treatment was great. They were really doing the best they could. You know it is very easy to criticize the government and the facilities until you are on the ground and there are so many patients and they are just running around all
+                    the time constantly checking every patient . I have nothing but gratitude for each one of them who took care of me. I had to do another precautionary 14 day quarantine after my discharge.</p>
+
+                <p>If there is anything I would like to say is just stay indoors, stay home and stay safe. Just follow the state orders and we will win this together!
+                </p>
+                <div class="w3-panel w3-leftbar w3-light-grey">
+                    <p><i>Sneha fought the virus by just following her doctor’s advice and you could win this too!
+                    </i></p>
+                    <!-- <p>Chef, Coffeeist and Owner: Liam Brown</p> -->
+                </div>
+                <img src="blog2img.png" style="width:100%;max-width:1000px" class="w3-margin-top">
+                <p><strong>BY:</strong> Sneha</p>
+                <p><strong>Address:</strong> 15 Adr street, 5015, NY</p>
+            </div>
+        </div>
+
+
+
+
+        <!-- Footer -->
+        <footer class="w3-center w3-light-grey w3-padding-48 w3-large">
+
+        </footer>
+
+        <script>
+            // Tabbed Menu
+            function openMenu(evt, menuName) {
+                var i, x, tablinks;
+                x = document.getElementsByClassName("menu");
+                for (i = 0; i < x.length; i++) {
+                    x[i].style.display = "none";
+                }
+                tablinks = document.getElementsByClassName("tablink");
+                for (i = 0; i < x.length; i++) {
+                    tablinks[i].className = tablinks[i].className.replace(" w3-dark-grey", "");
+                }
+                document.getElementById(menuName).style.display = "block";
+                evt.currentTarget.firstElementChild.className += " w3-dark-grey";
+            }
+            document.getElementById("myLink").click();
+        </script>
+
+</body>
+
+</html>
